@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CE9F6BB7-A867-CEE7-8A2B-5BCDB1B38F28" name="AUTORES">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-01 14:32:52 UTC</createdTime>
+<ownerDesignName>exercio02</ownerDesignName>
+<engineerTo>
+<item key="58ACA945-C1FA-B1EC-6613-DCFBCDEE8F1F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_autor" id="03D02F9C-7339-F67F-443F-DCAF4DDAFA20">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-01 14:39:11 UTC</createdTime>
+<ownerDesignName>exercio02</ownerDesignName>
+<engineerTo>
+<item key="58ACA945-C1FA-B1EC-6613-DCFBCDEE8F1F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="E078E4CD-7100-0397-3F5C-DC6D5E35BF67">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-01 14:39:18 UTC</createdTime>
+<ownerDesignName>exercio02</ownerDesignName>
+<engineerTo>
+<item key="58ACA945-C1FA-B1EC-6613-DCFBCDEE8F1F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sobrenome" id="89435C11-A5C1-F3CE-51C7-79BD120B3F40">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-08 14:25:56 UTC</createdTime>
+<ownerDesignName>exercio02</ownerDesignName>
+<engineerTo>
+<item key="58ACA945-C1FA-B1EC-6613-DCFBCDEE8F1F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7974A430-B6C4-FB31-1310-B0D18FBDD3FA" name="AUTORES PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-01 14:39:28 UTC</createdTime>
+<ownerDesignName>exercio02</ownerDesignName>
+<engineerTo>
+<item key="58ACA945-C1FA-B1EC-6613-DCFBCDEE8F1F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03D02F9C-7339-F67F-443F-DCAF4DDAFA20</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
